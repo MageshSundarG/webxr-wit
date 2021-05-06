@@ -1,4 +1,4 @@
-# Wit.ai WebXR Voice Demo
+# Wit.ai WebXR Voice
 
 
 ## Overview
@@ -14,6 +14,16 @@ This demo will show you how to integrate [Wit.ai](https://wit.ai) (NLU service) 
 *   Use a Web-Speech-API [compatible browser](https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API#browser_compatibility)
 *   Use a WebGL [compatible browser](https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API#browser_compatibility)
 *   Have a microphone connected to your computer
+
+
+## Launch the Demo Setup
+
+
+*   Create a new Wit.ai app
+*   Unzip and import [`src/webxrwitvoice.zip`](src/webxrwitvoice.zip) to your Wit.ai app
+*   Update `TOKEN` in  [`src/voice.js`](src/voice.js) to the token obtained from your app’s **Settings** page 
+*   Open the [`src/index.html`](src/index.html) file in your browser
+*   Allow microphone access
 
 
 ## Supported Voice Commands
